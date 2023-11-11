@@ -1,5 +1,5 @@
 import couchdb
-server = couchdb.Server('http://marvin:mavo1214@localhost:5984/')  # Replace the URL with your CouchDB server URL , REPLACE admin_user YOUR USERNAME AND admin_password with PASSWORD
+server = couchdb.Server('http://marvin:mavo1214@localhost:5984/') 
 #CREATE A DATABASE
 db_name = 'assigment'
 try:
